@@ -48,3 +48,86 @@ a
 {
     color: white;
 }
+#back2
+{
+    background-image: url('images/img6.jpg');
+    background-repeat: no-repeat;
+    background-size: 110% 110%;
+    height: 150%;
+}
+#head2
+{
+    padding-top: 25px;
+    text-align: center;
+}
+#hr1
+{
+    border: none;
+    height: 5px;
+    /* Set the hr color */
+    color: black; /* old IE */
+    background-color:black;
+}
+#area1
+{
+    padding-top: 6%;
+    text-align: center;
+}
+#font1
+{
+    font-size: 20px;
+    color: rgb(228, 225, 225)
+}
+#area2
+{
+    text-align: center;
+    padding-top: 25px;
+}
+#img1
+{
+    width: 70%;
+    height: auto;
+}
+#img2
+{
+    width: 53%;
+    height: auto;
+}
+#img3
+{
+    padding-top: 15px;
+    width: auto;
+    height: 40%;
+    /* opacity: 0; */
+    /* display: block; */
+    /* width: 100%;
+    height: auto; */
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+#covered:hover .image {
+    opacity: 0.3;
+  }
+  
+  #covered:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: gray;
+    color: white;
+    font-size: 16px;
+    padding: 30px 30px;
+  }
