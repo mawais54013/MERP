@@ -161,3 +161,26 @@ a
 {
     text-align: left;
 }
+
+@media only screen and (max-width: 980px)
+{
+    #img3
+    {
+        height: 150px;
+    }
+    #back3
+    {
+        height: 170%;
+    }
+}
+@media only screen and (max-width: 765px)
+{
+    #back2
+    {
+        height: 100%;
+    }
+    #back3
+    {
+        height: 200%;
+    }
+}
