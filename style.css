@@ -175,12 +175,51 @@ a
 }
 @media only screen and (max-width: 765px)
 {
+    /* #title1
+    {
+        font-size: 30px;
+    } */
     #back2
     {
         height: 100%;
     }
     #back3
     {
-        height: 200%;
+        height: 230%;
+    }
+    /* #img3
+    {
+        height: 70px;
+    } */
+    /* body
+    {
+        width: 300px;
+    } */
+}
+@media only screen and (max-width: 420px)
+{
+    #back2
+    {
+        height: 110%;
+    }
+    #img3
+    {
+        height: 70px;
+    }
+    body
+    {
+        width: 300px;
+    }
+    #title1
+    {
+        font-size: 30px;
+    } 
+    #back3
+    {
+        height: 240%;
+    }
+    #clear1
+    {
+        padding-left: 0px;
     }
 }
